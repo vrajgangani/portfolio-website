@@ -96,6 +96,8 @@ const matespaceClick = () => {
   window.open("https://matespace.web.app/");
 };
 
+
+//Elastic email
 const sendEmail = (userName, userEmail, userSubject, userMessage) => {
   Email.send({
     Host: "smtp.elasticemail.com",
